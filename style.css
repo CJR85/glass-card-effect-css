@@ -59,6 +59,9 @@ body {
   border-radius: 20px;
   border: 1px solid #fff;
   overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .card .glass::before {
@@ -71,4 +74,19 @@ body {
   background: rgba(255, 255, 255, 0.2);
   pointer-events: none;
   transform: skewX(345deg);
+}
+
+.card .glass h2 {
+  padding: 20px;
+  font-weight: 400;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  color: #333;
+  text-align: end;
+}
+
+.card .glass h2 i {
+  font-weight: 300;
+  font-size: 0.75em;
+  font-style: normal;
 }
